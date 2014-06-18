@@ -1,0 +1,18 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        /:title/
+
+# Setup
+encoding:         utf-8
+title:            بهرنگ نوروزی نیا
+tagline:          در نرم افزار
+url:              http://behrang.github.io
+paginate:         5
+baseurl:          /
+author:
+  name:           بهرنگ نوروزی نیا
+  url:            https://twitter.com/behrangn
+  email:          behrangn@gmail.com

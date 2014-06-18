@@ -1,2 +1,31 @@
-Behrang Noruzi Niya
+---
+layout: default
+title: Home
+---
 
+<main>
+  {% for post in paginator.posts %}
+    <article>
+      <h1><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title}}</a></h1>
+      <aside><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></aside>
+      {{ post.content }}
+    </article>
+  {% endfor %}
+</main>
+
+<nav>
+  {% if paginator.next_page %}
+    <a href="{{ site.baseurl }}page{{ paginator.next_page }}/">پیش</a>
+  {% else %}
+    <span>پیش</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a href="{{ site.baseurl }}">پس</a>
+    {% else %}
+      <a href="{{ site.baseurl }}page{{ paginator.previous_page }}/">پس</a>
+    {% endif %}
+  {% else %}
+    <span>پس</span>
+  {% endif %}
+</nav>

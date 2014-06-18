@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+  <header>
+    <h3>
+      <a href="{{ site.baseurl }}">{{ site.title }}</a>
+      <!-- <small>{{ site.tagline }}</small> -->
+    </h3>
+    <ul>
+      <li><a href="{{ site.baseurl }}about/">درباره</a></li>
+      <li><a href="{{ site.baseurl }}archive/">بایگانی</a></li>
+    </ul>
+  </header>
+
+  {{ content }}
+
+  <footer>
+    <a href="https://plus.google.com/+BehrangNoruziNiya?rel=author">+BehrangNoruziNiya</a>
+  </footer>
+
+  {% include comments.html %}
+
+  {% include google_analytics.html %}
+
+  <script src="{{ site.baseurl }}js/jalaali.js"></script>
+
+</body>
+</html>
