@@ -20,5 +20,3 @@ comments: true
 6. [https://vimeo.com/25126607](https://vimeo.com/25126607)
 
 [TTT]: https://vimeo.com/channels/ttt
-
-{% include twitter_plug.html %}
