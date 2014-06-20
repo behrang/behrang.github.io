@@ -19,9 +19,7 @@ layout: default
           <h3>
             <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">
               {{ post.title }}
-              <bdi>
-                <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-              </bdi>
+              <small dir="rtl"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
             </a>
           </h3>
         </li>
