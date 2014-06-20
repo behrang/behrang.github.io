@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ارائه ی اسکرام (Scrum)
-comments: true
+title: ارائه ی Scrum
+comments: yes
 ---
 
 این فیلم سالِ ۹۰ گرفته شد ولی خواستم پیش از نوشته های تازه تر آن را در اینجا بگذارم.
