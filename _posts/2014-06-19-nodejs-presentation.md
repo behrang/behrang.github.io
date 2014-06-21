@@ -9,3 +9,5 @@ title: ارائه ی Node.js
 
 * [فیلم](https://vimeo.com/behrang/nodejs)
 * [اسلاید ها](http://behrang.github.io/presentations/node.js/2011-09-07/)
+
+{% include twitter_plug.html %}

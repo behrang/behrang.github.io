@@ -18,4 +18,6 @@ title: ارائه ی Scrum
 5. [بخش ۵](https://vimeo.com/25125385)
 6. [بخش ۶](https://vimeo.com/25126607)
 
+{% include twitter_plug.html %}
+
 [TTT]: https://vimeo.com/channels/ttt

@@ -20,9 +20,7 @@ layout: nil
       <link href="{{ site.url }}{{ site.baseurl }}{{ post.url | remove_first: '/' }}"/>
       <updated>{{ post.date | date_to_xmlschema }}</updated>
       <id>{{ site.url }}{{ post.id }}</id>
-      <content type="html">
-        <![CDATA[{{ post.content }} {% include twitter_plug.html %}]]>
-      </content>
+      <content type="html">{{ post.content | xml_escape }}</content>
     </entry>
   {% endfor %}
 
