@@ -4,7 +4,7 @@
       var disqus_shortname = 'behrang';
       var disqus_identifier = '{{ page.id }}';
       var disqus_title = '{{ page.title }}';
-      var disqus_url = "{{ site.url }}{{ site.baseurl }}{{ post.url | remove_first: '/' }}";
+      var disqus_url = "{{ site.url }}{{ site.baseurl }}{{ page.url | remove_first: '/' }}";
 
       (function() {
           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
