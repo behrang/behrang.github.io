@@ -341,3 +341,10 @@ nav a:hover {
 footer {
   display: none;
 }
+
+p.twitter {
+  float: left;
+}
+p.twitter a {
+  border-bottom: 0;
+}

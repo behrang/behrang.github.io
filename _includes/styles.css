@@ -425,6 +425,20 @@ th {
 }
 
 
+.icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  fill: currentColor;
+}
+.icon-twitter {
+  fill: #b3b3b3;
+}
+.icon-twitter:hover {
+  fill: #666;
+}
+
+
 * {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -766,6 +780,13 @@ nav a:hover {
 
 footer {
   display: none;
+}
+
+p.twitter {
+  float: left;
+}
+p.twitter a {
+  border-bottom: 0;
 }
 
 

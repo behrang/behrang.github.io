@@ -12,6 +12,7 @@ build: components lib/**/*
 	@component build
 	@cp build/build.js _includes/scripts.js
 	@cp build/build.css _includes/styles.css
+	@cp build/lib/icons/symbols.svg _includes/symbols.svg
 	@touch $@
 
 components: component.json lib/*/component.json

@@ -112,5 +112,3 @@ function renderList(filenames) {
 ## دیدگاهِ شما چیست؟
 
 آیا آزانگر ها و `koa` پیچیده هستند؟ آیا `callback` ها و `express` ناخوانا تر هستند؟
-
-{% include twitter_plug.html %}
