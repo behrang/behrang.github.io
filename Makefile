@@ -2,15 +2,16 @@
 all: _site
 
 run: build
-	@jekyll serve --watch
+	@bundle exec jekyll serve --watch
 
 _site: build
-	@jekyll build
+	@bundle exec jekyll build
 	@touch $@
 
 build: components lib/**/*
 	@component build
 	@cp build/build.js _includes/scripts.js
+	@cp build/build.css _includes/styles.css
 	@touch $@
 
 components: component.json lib/*/component.json

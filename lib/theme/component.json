@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "styles": ["index.css", "syntax.css"],
+  "dependencies": {
+    "necolas/normalize.css": "^3.0.1"
+  }
+}
