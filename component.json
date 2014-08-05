@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "name": "blog",
+  "description": "My blog",
+  "paths": ["lib"],
+  "locals": ["boot"]
+}

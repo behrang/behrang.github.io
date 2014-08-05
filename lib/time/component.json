@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": ["index.js"],
+  "dependencies": {
+    "jalaali/jalaali-js": "~0.2.0"
+  }
+}
